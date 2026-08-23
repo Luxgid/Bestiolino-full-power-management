@@ -1,6 +1,6 @@
 # Bestiolino-full-power-management
 PMS for portable console 
-New Version 2.0 , completely redesigned:
+New Version 2.0 , completely redesigned: 
 
     TPS62816 --> the heart of the "Nano" 6A maximum for cpu/gpu core
     Rt9193 --> I’ve taken a step back from my previous approach—not because of the LDO issue often discussed regarding the PS2, but mainly due to the soldering difficulty caused by its tiny size, and because I wanted to propose a project that is feasible for everyone. Furthermore, since both 1.5V and 1.8V versions are available, it can easily be swapped out if any instability arises.You just need to twist the cables supplying power to the PS2.
