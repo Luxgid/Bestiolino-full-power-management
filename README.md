@@ -43,5 +43,5 @@ Therefore, the 5VLCD rail should not be used to power critical components—such
 For the LCD and Amp, you can even connect to the PS2's 5V line—just avoid USB or anything else that might cause the game to freeze.
 As above, but if the device is charging in fast-charge mode, how can it output 5V? Fortunately, it immediately switches the input to 5V regardless of the source voltage, so there are no issues with the output rail (5VLcd).
 The battery's positive terminal is permanently connected to the regulators' positive terminals, so keep this detail in mind. Another point to note is that the circuit features two separate GND connections. Based on the operating principle described above, the system will function once connected. Since this is a power connection, ensure you use cables and a switch capable of handling the required current.
-<img width="289" height="626" alt="2026-08-23_00h53_17" src="https://github.com/user-attachments/assets/49646607-4c8c-4747-884c-c64b4e8e841e" />
+<img width="289" height="665" alt="2026-08-23_00h53_17" src="https://github.com/user-attachments/assets/49646607-4c8c-4747-884c-c64b4e8e841e" />
 <img width="198" height="665" alt="2026-08-23_00h54_11" src="https://github.com/user-attachments/assets/4503fdb2-fe34-46b7-b1d0-c2c5b4692a06" />
