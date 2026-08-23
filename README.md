@@ -10,6 +10,7 @@ New Version 2.0 , completely redesigned:
     Sw6106 --> last but not least,  the heart of it all is a power bank IC that in addition to "giving us" a second 5V rail so as to separate for example PS2 / audio / LCD as we prefer, manages the cell charging and much more. I added the CC1 and CC2 lines, so it can easily support fast charging from 5V up to 12V, delivering up to 15W.
 
 Let's look at the pros and cons:
+
 Pro:
 
     Extremely small and versatile (slightly smaller than the v1)
