@@ -7,7 +7,7 @@ New Version 2.0 , completely redesigned:
     TPS628501 --> There are also various variables available (see datasheet) in this setup it will be used for 2.5v - 1A Max
     TPS63802 --> Here is the "champion" IC , already extensively covered on my 79001, a hybrid converter capable of changing its internal operation to constantly deliver 3.5v 2A Max
     TPS61023DRLR--> 5V - 3A available - The other one had MOSFETs that were too large and didn't handle the op-amp's variable load well at maximum volume—plus, the output filtering was reinforced.
-    Sw6106 --> last but not least, the heart of it all is a power bank IC that in addition to "giving us" a second 5V rail so as to separate for example PS2 / audio / LCD as we prefer, manages the cell charging and much more. I added the CC1 and CC2 lines, so it can easily support fast charging from 5V up to 12V, delivering up to 15W.
+    Sw6106 --> last but not least,  the heart of it all is a power bank IC that in addition to "giving us" a second 5V rail so as to separate for example PS2 / audio / LCD as we prefer, manages the cell charging and much more. I added the CC1 and CC2 lines, so it can easily support fast charging from 5V up to 12V, delivering up to 15W.
 
 Let's look at the pros and cons:
 Pro:
