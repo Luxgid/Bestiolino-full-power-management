@@ -45,3 +45,14 @@ As above, but if the device is charging in fast-charge mode, how can it output 5
 The battery's positive terminal is permanently connected to the regulators' positive terminals, so keep this detail in mind. Another point to note is that the circuit features two separate GND connections. Based on the operating principle described above, the system will function once connected. Since this is a power connection, ensure you use cables and a switch capable of handling the required current.
 <img width="289" height="665" alt="2026-08-23_00h53_17" src="https://github.com/user-attachments/assets/49646607-4c8c-4747-884c-c64b4e8e841e" />
 <img width="198" height="665" alt="2026-08-23_00h54_11" src="https://github.com/user-attachments/assets/4503fdb2-fe34-46b7-b1d0-c2c5b4692a06" />
+Battery Setting
+R7 On PCB:
+
+    NC: 4.2v
+    62k: 4.35v
+    30k: 4.4v
+    10k: 4.3v
+
+The BOM includes a 30k resistor for 4.4V; if you use a standard 4.2V battery, for example, R7 should not be installed—leave the circuit open.
+For the initial startup, I recommend beginning with the regulator section as follows: populate from the bottom up, starting with the EE rail. Populate the entire area and apply power to the BATT input (using a bench power supply to simulate the battery; ideally, set a low current limit on the supply to prevent damage in case of issues). If everything looks correct, proceed by jumpering the BATT positive terminal to the DEBUG "EN" (enable) pin; this is the output pin following the SW6106 diode (as explained in the schematic above)—it is merely a debug pin and will not be used once the circuit is complete. If you measure 0.975V and a current draw of just a few milliamps, everything is fine, and you can proceed to the second rail, and so on (remember that the RAM rail—1.8V or 1.5V, depending on your chosen regulator—is cascaded from the 2.5V rail, so start with the latter).
+ 
