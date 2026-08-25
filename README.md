@@ -45,6 +45,8 @@ As above, but if the device is charging in fast-charge mode, how can it output 5
 The battery's positive terminal is permanently connected to the regulators' positive terminals, so keep this detail in mind. Another point to note is that the circuit features two separate GND connections. Based on the operating principle described above, the system will function once connected. Since this is a power connection, ensure you use cables and a switch capable of handling the required current.
 <img width="289" height="665" alt="2026-08-23_00h53_17" src="https://github.com/user-attachments/assets/49646607-4c8c-4747-884c-c64b4e8e841e" />
 <img width="198" height="665" alt="2026-08-23_00h54_11" src="https://github.com/user-attachments/assets/4503fdb2-fe34-46b7-b1d0-c2c5b4692a06" />
+
+
 Battery Setting
 R7 On PCB:
 
